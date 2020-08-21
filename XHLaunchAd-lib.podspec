@@ -14,11 +14,11 @@ Pod::Spec.new do |s|
 
   s.homepage = 'https://github.com/lanligang/XHLaunchAd-lib'
 
-  s.authors  = { 'LenSky' => lslanligang@sina.com' }
+  s.authors  = { 'lanligang' => 'lslanligang@sina.com' }
 
   s.source   = { :git => 'https://github.com/lanligang/XHLaunchAd-lib.git', :tag => s.version }
 
-  s.source_files = 'XHLaunchAd-lib/**/*.{h,m,a}'
+  s.source_files = 'XHLaunchAd-lib/**/*.{h,a}'
   s.requires_arc = true
   s.ios.deployment_target = '8.0'
   s.ios.frameworks = ['UIKit', 'CoreGraphics', 'Foundation']

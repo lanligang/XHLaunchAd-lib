@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   s.name     = 'XHLaunchAd-lib'
 
-  s.version  = '0.0.2'
+  s.version  = '0.0.3'
 
   s.license  = { :type => 'MIT' }
 
